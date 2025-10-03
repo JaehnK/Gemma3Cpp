@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/gemma3cpp.dir/src/main.cpp.o CMakeFiles/gemma3cpp.dir/src/ModelManager.cpp.o CMakeFiles/gemma3cpp.dir/src/EmbeddingGenerator.cpp.o -o gemma3cpp  -Wl,-rpath,/home/jaehun/42lab/Gemma3Cpp/build/bin bin/libllama.so bin/libggml.so bin/libggml-cpu.so bin/libggml-base.so 

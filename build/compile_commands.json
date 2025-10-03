@@ -1,0 +1,320 @@
+[
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/jaehun/42lab/Gemma3Cpp/include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles/gemma3cpp.dir/src/main.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/src/main.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/src/main.cpp",
+  "output": "CMakeFiles/gemma3cpp.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/jaehun/42lab/Gemma3Cpp/include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles/gemma3cpp.dir/src/ModelManager.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/src/ModelManager.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/src/ModelManager.cpp",
+  "output": "CMakeFiles/gemma3cpp.dir/src/ModelManager.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/home/jaehun/42lab/Gemma3Cpp/include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles/gemma3cpp.dir/src/EmbeddingGenerator.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/src/EmbeddingGenerator.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/src/EmbeddingGenerator.cpp",
+  "output": "CMakeFiles/gemma3cpp.dir/src/EmbeddingGenerator.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml.c.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml.c",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml.c",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-alloc.c",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-alloc.c",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-backend.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-backend.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-opt.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-opt.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-threading.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-threading.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-quants.c",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-quants.c",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_COMMIT=\\\"2be72c2b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\\\"0.9.4\\\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/gguf.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/gguf.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/repack.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/repack.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/hbm.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/hbm.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/quants.c",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/quants.c",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/traits.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/traits.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/vec.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/vec.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/ops.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/ops.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/arch/x86/quants.c",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/arch/x86/quants.c",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/.. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "output": "external/llama.cpp/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-adapter.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-adapter.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-adapter.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-arch.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-arch.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-arch.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-batch.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-batch.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-batch.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-chat.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-chat.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-chat.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-context.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-context.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-context.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-context.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-cparams.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-cparams.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-cparams.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-cparams.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-grammar.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-grammar.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-grammar.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-graph.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-graph.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-graph.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-graph.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-hparams.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-hparams.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-hparams.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-impl.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-impl.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-impl.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-io.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-io.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-io.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-io.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-kv-cache.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-kv-cache.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-kv-cache-iswa.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-kv-cache-iswa.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-memory.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-memory.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-memory.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-memory.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-memory-hybrid.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-memory-hybrid.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-memory-recurrent.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-memory-recurrent.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-mmap.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-mmap.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-mmap.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-model-loader.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-model-loader.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model-saver.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-model-saver.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-model-saver.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-model.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-model.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-model.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-quant.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-quant.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-quant.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-sampling.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-sampling.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-sampling.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-sampling.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-vocab.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/llama-vocab.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/llama-vocab.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/unicode-data.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/unicode-data.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/unicode-data.cpp.o"
+},
+{
+  "directory": "/home/jaehun/42lab/Gemma3Cpp/build/external/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/. -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/../include -I/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode.cpp.o -c /home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/unicode.cpp",
+  "file": "/home/jaehun/42lab/Gemma3Cpp/external/llama.cpp/src/unicode.cpp",
+  "output": "external/llama.cpp/src/CMakeFiles/llama.dir/unicode.cpp.o"
+}
+]
