@@ -4,6 +4,7 @@
 #include <memory>
 
 #include "llama.h"
+#include "ModelManager.hpp"
 
 class EmbeddingGenerator {
     private:
@@ -11,20 +12,20 @@ class EmbeddingGenerator {
         llama_context* ctx;
         llama_context_params ctxParams;
 
-        std::vector<llama_token> tokenize(const std::string& text);
+        std::vector<llama_token> tokenize(const std::string& text, bool add_bos);
 
     public:
         explicit EmbeddingGenerator(
-            std::shared_ptr<ModelManager> ModelMgr,
+            std::shared_ptr<ModelManager> modelMgr,
             int n_ctx = 512,
             int n_batch = 512
         );
         // OCCF를 준수하지 않고 복사 연산자와 대입 연산자를 명시적으로 금지함
         // 이는 흠 ... 뭐냐, 그럴 수 있어 ...
-        ModelManager(const ModelManager&) = delete;
-        ModelManager& operator=(const ModelManager&) = delete;
+        EmbeddingGenerator(const EmbeddingGenerator&) = delete;
+        EmbeddingGenerator& operator=(const EmbeddingGenerator&) = delete;
         ~EmbeddingGenerator();
 
-        std::vector<float> GenerateEmbedding(const std::string& txt);
+        std::vector<float> generateEmbedding(const std::string& text);
         std::vector<float> generateNormalizedEmbedding(const std::string& text);
-}
+};

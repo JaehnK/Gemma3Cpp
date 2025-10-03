@@ -1,14 +1,14 @@
-#include "../includes/EmbeddingGenerator.h"
+#include "../include/EmbeddingGenerator.hpp"
 
 #include <stdexcept>
 #include <cmath>
 #include <algorithm>
 
 EmbeddingGenerator::EmbeddingGenerator(
-    std::shared_ptr<ModelManager> model_mgr;
+    std::shared_ptr<ModelManager> modelMgr,
     int n_ctx,
     int n_batch)
-    : modelMgr(model_mgr), ctx(nullptr) {
+    : modelMgr(std::move(modelMgr)), ctx(nullptr) {
 
     if (!modelMgr || !modelMgr->getModel())
         throw std::invalid_argument("Invalid ModelManager");
@@ -21,7 +21,7 @@ EmbeddingGenerator::EmbeddingGenerator(
     ctxParams.n_threads = 4;
 
     // 컨텍스트 생성
-    ctx = llama_new_context_with_model(modelMgr->getModel(), ctxParams);
+    ctx = llama_new_context_with_model(this->modelMgr->getModel(), ctxParams);
 
     if (!ctx)
         throw std::runtime_error("Failed to create context");
@@ -39,11 +39,11 @@ std::vector<llama_token> EmbeddingGenerator::tokenize(const std::string& text, b
     
     std::vector<llama_token> tokens(text.length() + (add_bos ? 1 : 0));
     int n_tokens = llama_tokenize(
-        model_manager->getModel(),
+        this->modelMgr->getModel(),
         text.c_str(),
         text.length(),
         tokens.data(),
-        tokens.size(),
+        (int)tokens.size(),
         add_bos,
         false
     );
@@ -51,11 +51,11 @@ std::vector<llama_token> EmbeddingGenerator::tokenize(const std::string& text, b
     if (n_tokens < 0) {
         tokens.resize(-n_tokens);
         n_tokens = llama_tokenize(
-            model_manager->getModel(),
+            this->modelMgr->getModel(),
             text.c_str(),
             text.length(),
             tokens.data(),
-            tokens.size(),
+            (int)tokens.size(),
             add_bos,
             false
         );
@@ -78,10 +78,10 @@ std::vector<float> EmbeddingGenerator::generateEmbedding(
         throw std::runtime_error("Tokenization failed");
     }
     
-    llama_batch batch = llama_batch_init(tokens.size(), 0, 1);
+    llama_batch batch = llama_batch_init((int)tokens.size(), 0, 1);
     
     for (size_t i = 0; i < tokens.size(); ++i) {
-        llama_batch_add(batch, tokens[i], i, {0}, false);
+        llama_batch_add(batch, tokens[i], (int)i, {0}, false);
     }
     batch.logits[batch.n_tokens - 1] = true;
     
@@ -90,7 +90,7 @@ std::vector<float> EmbeddingGenerator::generateEmbedding(
         throw std::runtime_error("Failed to decode");
     }
     
-    int n_embd = model_manager->getEmbeddingDimension();
+    int n_embd = this->modelMgr->getEmbeddingDimension();
     const float* embeddings = llama_get_embeddings(ctx);
     
     if (!embeddings) {
@@ -125,5 +125,5 @@ std::vector<float> EmbeddingGenerator::generateNormalizedEmbedding(
 }
 
 int EmbeddingGenerator::getEmbeddingDimension() const {
-    return model_manager->getEmbeddingDimension();
+    return this->modelMgr->getEmbeddingDimension();
 }

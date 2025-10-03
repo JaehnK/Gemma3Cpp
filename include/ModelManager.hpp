@@ -20,4 +20,4 @@ class ModelManager {
 
         int getEmbeddingDimension() const;
         int getVocabSize() const;
-}
+};
