@@ -34,8 +34,12 @@ int main(int argc, char** argv) {
     }
 
     try {
+        std::cout << "Loading model from: " << modelPath << "\n";
         auto modelMgr = std::make_shared<ModelManager>(modelPath);
+        std::cout << "Model loaded successfully\n";
+        std::cout << "Creating embedding generator...\n";
         EmbeddingGenerator generator(modelMgr, 512, 512);
+        std::cout << "Embedding generator created successfully\n";
 
         std::vector<float> embedding = generator.generateEmbedding(inputText);
 
